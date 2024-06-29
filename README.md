@@ -1,3 +1,4 @@
+```
 folk from zhouwei 
 
 
@@ -13,7 +14,7 @@ clang -Os -target arm64-apple-ios12.0 -Wall \
 	-o who_let_the_dogs_out \
 	who_let_the_dogs_out.c \
 	-framework IOKit
-```c
+
 # 这里需要用这个重新签名，以获取权限 . 
 ldid -Sreal.entitlements who_let_the_dogs_out
 # 之后拷贝到设备上运行 
