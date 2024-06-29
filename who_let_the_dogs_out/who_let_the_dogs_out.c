@@ -24,5 +24,6 @@ int main() {
     fprintf(stderr, "Failed to disable watchdog: %s\n", mach_error_string(err));
     return 1;
   }
+  fprintf(stderr, "Success to disable watchdog: \n");
   return 0;
 }
